@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("enter a and b values");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int f = 1;
+            for (int i = 2; i < a+1; i++)
+            {
+                f = f * i;
+            }
+            Console.WriteLine("value"+ f);
+      
+
+            Console.ReadKey();
+
+        }
+    }
+}
